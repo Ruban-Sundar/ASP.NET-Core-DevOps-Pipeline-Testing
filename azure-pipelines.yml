@@ -51,7 +51,7 @@ jobs:
 - job: WebApp1
   displayName: 'Build Web App in 2020'
   pool:
-    vmImage: 'windows-2020'
+    vmImage: 'windows-latest'
   variables:
     BuildConfiguration: release
   steps:
